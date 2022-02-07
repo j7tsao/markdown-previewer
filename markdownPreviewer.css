@@ -1,0 +1,53 @@
+/* Using SASS */
+
+$darkGrey: #2d3436;
+$lightGrey: #dfe6e9;
+$backgroundBase: #fab1a0;
+
+body {
+  background: $backgroundBase;
+}
+.flexBox {
+  display: flex;
+  height: 89vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.innerBox {
+  text-align: center;
+  background-color: $lightGrey;
+  width: 50vw;
+  height: 100%;
+  padding: 7px;
+  border-radius: 5px;
+}
+textarea {
+  width: 100%;
+  height: 87%;
+}
+innerTitle {
+  text-align: center;
+}
+#previewWrapper {
+  background: white;
+  text-align: left;
+  overflow: auto;
+  height: 87%;
+  overflow: auto;
+}
+#preview img {
+  width: 100%;
+}
+.title {
+  text-align: center;
+}
+#editor {
+  background: black;
+  color: $lightGrey;
+}
+.innerTitle {
+  height: 27px;
+  color: $lightGrey;
+  background: $darkGrey;
+}
